@@ -8,8 +8,8 @@
 const n = parseInt(process.arvg[2]);
 function isPrime(num) {
     if (num <=1) return false;
-    for (let i =2; i < num; i++) {
-        if (num % i ===0) {
+    for (let i=2; i < num; i++) {
+        if (num % i === 0) {
             return false;
         }
     }
@@ -19,7 +19,7 @@ if (isPrime (n) ) {
     console.log("Prime Number");
 }
 else {
-    console.log("Not Prine Number");    
+    console.log("Not Prime Number");    
 }
 
 
