@@ -6,7 +6,7 @@
  */
 // const n=parsInt();
 const n = parseInt(process.arvg[2]);
-function isprime(num) {
+function isPrime(num) {
     if (num <=1) return false;
     for (let i =2; i < num; i++) {
         if (num % i ===0) {
@@ -15,12 +15,12 @@ function isprime(num) {
     }
     return true;
 }
-if (isprime (n) ) {
+if (isPrime (n) ) {
     console.log("Prime Number");
 }
 else {
-    console.lo("Not Prine Number");    
+    console.log("Not Prine Number");    
 }
 
 
-module.exports = isprime;
+module.exports = isPrime;
